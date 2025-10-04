@@ -1,0 +1,580 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+/* Navigation */
+.nav {
+display: flex;
+align-items: center;
+padding: 17px;
+font-family: Marcellus;
+}
+
+.logobox img{
+height: 80px;
+margin-right: 30px;
+margin-left:10px;
+width: 80px;
+border-radius: 50%;
+border: 3px solid;
+}
+
+.logobox{
+display: flex;
+padding: 20px;
+}
+.logobox h1{
+font-family: Marcellus;
+font-size: 40px;
+display: flex;
+}
+
+.nav a {
+margin-left: 50px;
+margin-right:40px;
+text-decoration: none;
+color: #e61e64;
+font-size: 25px;
+padding-left: 20px;
+padding-right: 20px;
+transition-duration: 0.5s;
+}
+.nav a:hover{
+	margin-left:100px;
+	transition: .4s;
+	transition-timing-function: ease-out;
+	background-color: #faacbd;
+}
+
+/* Main background section */
+.main-section {
+background-image: url('images/banner-image.jpg');
+background-size: cover;
+background-position: center;
+padding: 20px;
+color: white;
+text-align: left;
+height: 800px; 
+}
+
+.main-section h1 {
+font-size: 60px;
+margin-bottom: 20px;
+font-family: Marcellus;
+color: #f72851;
+margin: 20px;
+margin-top:70px;
+}
+.main-section h2{
+	font-size:50px;
+	font-family: Libre Franklin;
+	color: #7aa68d;
+}
+
+.main-section .btn {
+display: inline-block;
+background-color: #7aa68d;
+color: white;
+padding: 20px;
+margin: 15px;
+border-radius: 40px;
+text-decoration: none;
+font-weight: bold;
+margin-right: 15px;
+font-size: 20px;
+width: 250px;
+}
+
+/* See other projects */
+.projects {
+padding: 40px 20px;
+text-align: center;
+color: #d18f8b;
+}
+
+.projects h2 {
+margin-bottom: 30px;
+font-size: 35px;
+}
+
+.project-list {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.project {
+width: 140px;
+font-size: 20px;
+text-align: left;
+margin: 40px;
+}
+
+.project img {
+border-radius: 10px;
+margin-bottom: 8px;
+}
+
+/* Art gallery */
+.gallery {
+padding: 40px 20px;
+text-align: center;
+color: #d18f8b;
+}
+
+.gallery h2 {
+margin-bottom: 20px;
+font-size: 30px;
+}
+
+.gallery-grid {
+width: 1200px;
+margin: 0 auto;
+overflow: auto;
+white-space: nowrap;
+}
+
+.gallery-grid img {
+border-radius: 10px;
+
+}
+
+/* Goals */
+#goal-section {
+padding: 40px 20px;
+text-align: center;
+color: #d18f8b;
+background: #f5f0eb;
+height:600px;
+}
+
+#goal-section h2 {
+margin-bottom: 30px;
+font-size: 40px;
+}
+
+.goal-buttons {
+  display: inline-block;
+  vertical-align: top;     
+  width: 40%;
+}
+
+.goal-buttons a {
+  display: block;
+  margin: 10px;
+  background-color: #7aa68d;
+  color: white;
+  border-radius: 40px;
+  padding: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#goal-section img {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;              
+  border-radius: 10px;
+  max-width: 300px;
+  margin-left: 20px;
+}
+.learn-more-btn {
+display: inline-block;
+margin-top: 20px;
+padding: 30px;
+padding-left: 60px;
+padding-right: 60px;
+background-color: #7aa68d;   
+color: white;
+font-weight: bold;
+font-size: 20px;
+text-decoration: none;
+border-radius: 40px;
+}
+
+/* Footer */
+.footer {
+background-color: #9eba95;
+color: white;
+padding-left: 20px;
+padding-right:20px;
+padding-top:10px;
+padding-bottom:10px;
+text-align: center;
+}
+.footer-nav{
+margin-left: 80px;
+display:flex;
+}
+.footer-nav a {
+color: white;
+margin: 10px;
+font-weight: bold;
+text-decoration: none;
+font-size: 30px;
+padding:20px;
+height:30px;
+transition-duration:0.5s;
+}
+.footer-nav a:hover{
+	margin-right:50px;
+	transition: .4s;
+	transition-timing-function: ease-out;
+	background-color: #6f8c76;
+}
+.footer-top{
+display:flex;
+}
+.footer p{
+text-align: left;
+padding:20px;
+font-size:30px;
+font-family: marcellus;
+}
+
+.social-icons img {
+	width: 60px;
+	border-radius: 100%;
+	padding: 20px;
+}
+.footer label{
+	font-family:marcellus;
+	font-size: 25px;
+}
+.footer input{
+	width: 400px;
+	padding:15px;
+}
+
+/*Thank you page*/
+.thankyou-page {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 100px;
+  background: #f5f0eb;
+  color: #333;
+}
+
+.thankyou-page h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.thankyou-page p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.thankyou-page .button {
+  display: inline-block;
+  padding: 10px;
+  background-color: #7aa68d;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+/*About us section*/
+#about-main{
+background-image: url('images/about-us-banner.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+padding: 20px;
+}
+
+.about-top {
+  height: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-top h1 {
+  font-size: 60px;
+  color: #f72851;
+}
+
+.about-top p {
+  font-size: 24px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  color:#ff4d76;
+  font-family: marcellus;
+}
+
+.about-buttons {
+  margin-top: 40px;
+}
+
+.about-buttons a{
+  display: inline-block;
+  background-color: #7aa68d;
+  color: white;
+  padding: 20px;
+  margin-right: 15px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+/* About Us Sections */
+.about-section {
+  padding: 60px;
+  text-align: center;
+  height:700px;
+  font-size: 20px;
+  font-family: marcellus;
+  line-height: 1.8;
+}
+.about-section img{
+	margin-top: 160px;
+	height:50px;
+	padding: 20px;
+	background-color: white;
+	border-radius:40px;
+	transition-duration: 0.5s;
+}
+.about-section img:hover{
+	margin-top:190px;
+	transition: 0.5s;
+}
+#mission{
+background-image: url('images/about1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+#mission p{
+	background-color: #bacde0;
+	
+}
+#team{
+background-image: url('images/about2.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+#team p{
+	background-color: #bacde0;
+}
+#values{
+background-image: url('images/about3.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+#values p{
+	background-color: #bacde0;
+}
+
+/*Resource Sections*/
+#resource-sections {
+  background-color: #68A691;
+}
+
+/*Display Art Section*/
+#display-art {
+  padding: 60px;
+  font-family: Marcellus;
+  color: white;
+  font-size: 22px;
+  height: 500px;
+}
+#display-art img{
+	width:400px;
+}
+
+#display-art h2 {
+  font-size: 40px;
+  color: #BFD3C1;
+  margin-bottom: 20px;
+}
+
+#display-art ul {
+  list-style-type: none;
+  padding: 0;
+  line-height: 2;
+  float:right;
+}
+
+/* Supplies Section */
+#supplies {
+  padding: 60px;
+  font-family: Marcellus;
+  color: #ffffff;
+  font-size: 25px;
+  height: 600px;
+  background-color: #BFD3C1;
+}
+#art-types{
+	display:flex;
+}
+#graphite{
+	margin: 30px;
+}
+#watercolour{
+	margin:30px;
+}
+#acrylic{
+	margin:30px;
+}
+
+#supplies h2 {
+  font-size: 40px;
+  color: #68A691;
+  margin-bottom: 20px;
+}
+
+#supplies h3 {
+  margin-top: 30px;
+  font-size: 30px;
+  color: #e6f7f2;
+}
+
+#supplies ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 2;
+}
+
+/* Art Museums Section */
+#art-museums {
+  padding: 60px;
+  font-family: Marcellus;
+  color: white;
+  font-size: 25px;
+  height: 500px;
+}
+#art-museums img{
+	width: 400px;
+	margin-left:20px;
+}
+#art-museums h2 {
+  font-size: 40px;
+  color: #BFD3C1;
+  margin-bottom: 20px;
+}
+
+#art-museums ul {
+  list-style-type: none;
+  padding: 0;
+  line-height: 2;
+}
+#museum-main{
+	display:flex;
+}
+/*Contact section*/
+.contact-container {
+  padding: 50px;
+  text-align: center;
+  font-family: Marcellus;
+}
+
+.contact-box {
+  margin-bottom: 60px;
+}
+
+.contact-box h2 {
+  font-size: 30px;
+  color: #d18f8b;
+  margin-bottom: 20px;
+}
+
+.contact-box input{
+  padding: 12px;
+  width: 500px;
+  margin: 10px;
+  font-family: Gowun Dodum;
+  font-size: 16px;
+  border: 1px solid;
+  border-radius: 40px;
+}
+.green-button {
+  background-color: #7aa68d;
+  color: white;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right:50px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: Gowun Dodum;
+  border-radius: 40px;
+
+}
+
+.green-button:hover {
+  background-color: #679a7e;
+}
+
+/*Guides section*/
+#graphite-guide {
+margin-bottom: 100px;
+margin-top: 100px;
+}
+#oil-guide {
+margin-bottom: 100px;
+margin-top: 100px;
+}
+#watercolour-guide {
+margin-bottom: 100px;
+margin-top: 100px;
+}
+.guides-page {
+  font-family: Marcellus;
+  padding: 40px 20px;
+  text-align: center;
+  color: #d18f8b;
+}
+
+.guides-title {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.art-types {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+.art-types a {
+  text-decoration: none;
+  color: #d18f8b;
+  font-size: 20px;
+}
+
+.art-types img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.guide-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.guide-section h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.guide-section ol {
+  text-align: left;
+  font-family: Gowun Dodum;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-left: 200px;
+}
+.guide-section a{
+text-decoration: none;
+}
